@@ -34,3 +34,84 @@ body{
   font-size: 15px;
   padding: 8px 15px;
 }
+body{
+    background-color: rgb(24,25,25);
+    color: white;
+    font-family:Arial;
+
+    /* Default styles (for larger screens) */
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  width: 100%;
+  max-width: 200px;
+  padding: 12px;
+  font-size: 18px;
+}
+
+
+/* For smaller screens like tablets */
+@media screen and (max-width: 768px) {
+  .container {
+      width: 90%;
+  }
+  h1 {
+      font-size: 24px;
+  }
+}
+
+/* For mobile screens */
+@media screen and (max-width: 480px) {
+  .container {
+      width: 100%;
+      padding: 10px;
+  }
+  h1 {
+      font-size: 20px;
+  }
+  button {
+      font-size: 16px;
+      padding: 10px;
+  }
+}
+
+}
+.title{
+    font-size:30px;
+    font-weight:bold;
+}
+.move-icon{
+    height: 50px;
+}
+.move-button{
+    background-color: transparent;
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius:60px;
+    margin-right: 10px; 
+    cursor: pointer;
+}
+.result{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+
+}
+.score{
+  margin-top: 60px;
+}
+.reset-score-button{
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 8px 15px;
+}
