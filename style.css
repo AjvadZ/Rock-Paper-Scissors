@@ -57,6 +57,11 @@ button {
     font-size: 15px;
     padding: 8px 15px;
 }
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Adds space below each image */
+}
 
 /* For smaller screens like tablets */
 @media screen and (max-width: 768px) {
